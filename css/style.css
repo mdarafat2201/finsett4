@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+:root {
+  --HeaderFooter: #1c1e53;
+  --PrimaryColor: #282938;
+  --DotColor: #2405f2;
+  --WhteColor: #fff;
+  --BannerColor: #f4f5f5;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ====================== navbar part css start =================== */
+#navbar_part .coustom_navbar {
+  background-color: var(--HeaderFooter);
+}
+#navbar_part .coustom_navbar .btn button {
+  background-color: transparent;
+  padding: 18px 48px;
+
+  border-radius: 41px;
+  border: 2px solid #f4f6fc33;
+}
+#navbar_part .coustom_navbar .btn button a {
+  color: var(--WhteColor, #fff);
+  font-size: 16px;
+  font-weight: 500;
+}
+#navbar_part .coustom_navbar ul li a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 29px;
+}
+#navbar_part .coustom_navbar ul li a:hover {
+  color: var(--WhteColor);
+}
+/* ====================== navbar part css end ================= */
